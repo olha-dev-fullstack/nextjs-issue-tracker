@@ -36,6 +36,7 @@
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",
     "daisyui": "^5.0.12",
+    "encoding": "^0.1.13",
     "prisma": "^6.5.0"
   }
 }
