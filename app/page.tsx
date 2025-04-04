@@ -1,12 +1,6 @@
 "use client";
-import Image from "next/image";
-import house from "@/public/images/house.jpg";
-import Link from "next/link";
-import ProductCard from "./components/ProductCard";
-import { getServerSession } from "next-auth";
-import { authOptions } from "./api/auth/[...nextauth]/route";
-import { useState } from "react";
 import dynamic from "next/dynamic";
+import { useState } from "react";
 
 const HeavyComponent = dynamic(() => import("./components/HeavyComponent"), {
   ssr: false,
